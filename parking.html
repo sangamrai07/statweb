@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>IOT BASED PARKING SYSTEM</title>
+    <link rel="stylesheet" href="parking.css">
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai|Bree+Serif&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bakbak+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Titan+One&display=swap" rel="stylesheet">
+
+    <style>
+        .TotalSlot{
+            margin-left: 150px;
+             margin-right: 150px;
+             display: flex;
+             height: 100px;
+        }
+        .TotalSlot h3{
+             font-family: 'Alfa Slab One', cursive;
+             color: whitesmoke;
+             font-size: 80px;
+             
+        }
+        #myButton {
+  background-color: rgb(56, 56, 65);
+  color: white;
+  padding: 12px 20px;
+  margin: 25px;
+  border: none;
+  cursor: pointer;
+  font-size: 25px;
+  border: 2px solid gray;
+  border-radius: 7px;
+  transition: background-color 0.3s ease;
+}
+
+#myButton:hover {
+  background-color: darkblue;
+}
+    </style>
+</head>
+
+<body>
+    <nav id="navbar">
+        <div class="logo1">
+            <img src="logo1.png" alt="">
+        </div>
+        <ul>
+            <li class="item"><a href="home.html">Home</a></li>
+            <li class="item"><a href="parking.html">Parking Slot</a></li>
+            <li class="item"><a href="">Contact Us</a></li>
+            <div class="search">
+                <input type="text" placeholder="Search..." class="searchInput">
+                <img src="search.png" width="20" height="20" alt="" class="searchIcon">
+            </div>
+        </ul>
+    </nav>
+    <div class="slots">
+        <div class="TotalSlot">
+            <h3>TOTAL NO. OF SLOTS</h3>
+        </div>
+        <div class="parking-slot">
+            <h2 class="slot-name">Slot 1</h2>
+            <div class="availability">
+                <p class="status">Status:</p>
+                <button id="myButton">EMPTY</button>
+            </div>
+          </div>
+          <div class="parking-slot">
+            <h2 class="slot-name">Slot 2</h2>
+            <div class="availability">
+              <p class="status">Status:</p>
+              <button id="myButton">EMPTY</button>
+            </div>
+          </div>
+          <div class="parking-slot">
+            <h2 class="slot-name">Slot 3</h2>
+            <div class="availability">
+                <p class="status">Status:</p>
+                <button id="myButton">EMPTY</button>
+            </div>
+          </div>
+          <div class="parking-slot">
+            <h2 class="slot-name">Slot 4</h2>
+            <div class="availability">
+                <p class="status">Status:</p>
+                <button id="myButton">EMPTY</button>
+            </div>
+          </div>  
+    </div>
+<hr>
+    <footer>
+        <div class="footerLeft">
+            <div class="footerMenu">
+                <h1 class="fMenuTitle">Our Office Address</h1>
+                <ul class="fList">
+                    <li class="fListItem">Itahari Sub-Metropolitan, </li>
+                    <li class="fListItem">Sunsari, Province 1, Nepal</li>
+
+                </ul>
+            </div>
+            <div class="footerMenu">
+                <h1 class="fMenuTitle">General Queries</h1>
+                <ul class="fList">
+                    <li class="fListItem">iotsmartparking@gmail.com</li>
+                    <li class="fListItem">iotparksupport@gmail.com</li>
+                </ul>
+            </div>
+            <div class="footerMenu">
+                <h1 class="fMenuTitle">Call US</h1>
+                <ul class="fList">
+                    <li class="fListItem">+977 9809809801</li>
+                    <li class="fListItem">+977 9811012202</li>
+                </ul>
+            </div>
+        </div>
+       <hr>
+        <div class="footerRight">
+            <div class="footerRightMenu">
+                <h1 class="fMenuTitle">Join Our Community</h1>
+                <div class="fMail">
+                    <input type="text" placeholder="your@gmail.com" class="fInput">
+                    <button class="fButton">Join!</button>
+                </div>
+            </div>
+            <div class="footerRightMenu">
+                <h1 class="fMenuTitle1">Follow Us</h1>
+                <div class="fIcons">
+                    <img src="fac.png" alt="" class="fIcon">
+                    <img src="insta.png" alt="" class="fIcon">
+                    <img src="twi.png" alt="" class="fIcon">
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
